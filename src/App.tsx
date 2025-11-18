@@ -7,21 +7,19 @@ import './App.css';
 
 function App() {
   return (
-    <BrowserRouter basename='https://n-kei.github.io/saitama-vote/'>
-      <Router>
-        <Routes>
-          <Route path="/" element={<CommonLayout/>}>
-            <Route index element={<Welcome />} />
-            <Route path="/councillor">
-              <Route index element={<CouncillorList />} />
-            </Route>
-            <Route path="/agenda">
-              <Route index element={<AgendaList />} />
-            </Route>
+    <Router basename='/saitama-vote'>
+      <Routes>
+        <Route path="/" element={<CommonLayout/>}>
+          <Route index element={<Welcome />} />
+          <Route path="/councillor">
+            <Route index element={<CouncillorList />} />
           </Route>
-        </Routes>
-      </Router>
-    </BrowserRouter>
+          <Route path="/agenda">
+            <Route index element={<AgendaList />} />
+          </Route>
+        </Route>
+      </Routes>
+    </Router>
   );
 }
 
