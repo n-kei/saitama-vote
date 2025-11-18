@@ -11,10 +11,10 @@ function App() {
       <Routes>
         <Route path="/" element={<CommonLayout/>}>
           <Route index element={<Welcome />} />
-          <Route path="/councillor">
+          <Route path="councillor">
             <Route index element={<CouncillorList />} />
           </Route>
-          <Route path="/agenda">
+          <Route path="agenda">
             <Route index element={<AgendaList />} />
           </Route>
         </Route>
