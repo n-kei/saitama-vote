@@ -1,4 +1,4 @@
-import { Routes, Route, BrowserRouter as Router, BrowserRouter } from 'react-router-dom';
+import { Routes, Route, HashRouter as Router, BrowserRouter } from 'react-router-dom';
 import { CommonLayout } from './components/layout';
 import { Welcome } from './pages/welcome';
 import { CouncillorList } from './pages/councillor';
