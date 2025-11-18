@@ -7,7 +7,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/saitama-vote'>
       <Routes>
         <Route path="/" element={<CommonLayout/>}>
           <Route index element={<Welcome />} />
