@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/saitama-vote/static/css/main.f855e6bc.css",
-    "main.js": "/saitama-vote/static/js/main.9ad57bd8.js",
+    "main.js": "/saitama-vote/static/js/main.175d9d58.js",
     "static/js/453.19f261e7.chunk.js": "/saitama-vote/static/js/453.19f261e7.chunk.js",
     "index.html": "/saitama-vote/index.html",
     "main.f855e6bc.css.map": "/saitama-vote/static/css/main.f855e6bc.css.map",
-    "main.9ad57bd8.js.map": "/saitama-vote/static/js/main.9ad57bd8.js.map",
+    "main.175d9d58.js.map": "/saitama-vote/static/js/main.175d9d58.js.map",
     "453.19f261e7.chunk.js.map": "/saitama-vote/static/js/453.19f261e7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.9ad57bd8.js"
+    "static/js/main.175d9d58.js"
   ]
 }
